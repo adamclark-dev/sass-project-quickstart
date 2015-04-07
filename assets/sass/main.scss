@@ -1,0 +1,33 @@
+/* BASE */
+@import 'base/clearfix';
+@import 'base/reset';
+@import 'base/typography';
+
+/* UTILS */
+@import 'utils/functions';
+@import 'utils/helpers';
+@import 'utils/mixins';
+@import 'utils/variables';
+
+/* VENDORS */
+@import '../vendors/bootstrap-sass/assets/stylesheets/bootstrap';
+
+/* COMPONENTS */
+@import 'components/buttons';
+@import 'components/dropdown';
+@import 'components/inputs';
+@import 'components/slider';
+
+/* LAYOUT */
+@import 'layout/forms';
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/navigation';
+@import 'layout/sidebar';
+
+/* PAGES */
+@import 'pages/home';
+
+/* THEMES */
+@import 'themes/admin';
+@import 'themes/theme';
