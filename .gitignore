@@ -1,2 +1,3 @@
-vendors
+/assets/vendor
+/public/assets
 .idea

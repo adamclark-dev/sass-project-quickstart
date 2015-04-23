@@ -1,3 +1,7 @@
+/* VENDORS */
+@import '../vendor/normalize-scss/normalize';
+@import '../vendor/compass-mixins/lib/compass';
+
 /* BASE */
 @import 'base/clearfix';
 @import 'base/reset';
@@ -8,9 +12,6 @@
 @import 'utils/helpers';
 @import 'utils/mixins';
 @import 'utils/variables';
-
-/* VENDORS */
-@import '../vendors/bootstrap-sass/assets/stylesheets/bootstrap';
 
 /* COMPONENTS */
 @import 'components/buttons';
